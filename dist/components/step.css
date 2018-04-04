@@ -16,23 +16,20 @@
 
 .ui.steps {
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
   -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
   margin: 1em 0em;
   background: '';
   box-shadow: none;
-  line-height: 1.14285714em;
-  border-radius: 0.28571429rem;
+  line-height: 1.125em;
+  border-radius: 0.25rem;
   border: 1px solid rgba(34, 36, 38, 0.15);
 }
 
@@ -54,34 +51,28 @@
 .ui.steps .step {
   position: relative;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
   vertical-align: middle;
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0em 0em;
-  padding: 1.14285714em 2em;
-  background: #ffffff;
-  color: rgba(0, 0, 0, 0.87);
+  padding: 1.125em 2em;
+  background: #FFFFFF;
+  color: #4D4D4D;
   box-shadow: none;
   border-radius: 0em;
   border: none;
@@ -99,33 +90,32 @@
   top: 50%;
   right: 0%;
   border: medium none;
-  background-color: #ffffff;
-  width: 1.14285714em;
-  height: 1.14285714em;
+  background-color: #FFFFFF;
+  width: 1.125em;
+  height: 1.125em;
   border-style: solid;
   border-color: rgba(34, 36, 38, 0.15);
   border-width: 0px 1px 1px 0px;
   -webkit-transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
           transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
   -webkit-transform: translateY(-50%) translateX(50%) rotate(-45deg);
-      -ms-transform: translateY(-50%) translateX(50%) rotate(-45deg);
           transform: translateY(-50%) translateX(50%) rotate(-45deg);
 }
 
 /* First Step */
 .ui.steps .step:first-child {
   padding-left: 2em;
-  border-radius: 0.28571429rem 0em 0em 0.28571429rem;
+  border-radius: 0.25rem 0em 0em 0.25rem;
 }
 
 /* Only Step */
 .ui.steps .step:only-child {
-  border-radius: 0.28571429rem;
+  border-radius: 0.25rem;
 }
 
 /* Last Step */
 .ui.steps .step:last-child {
-  border-radius: 0em 0.28571429rem 0.28571429rem 0em;
+  border-radius: 0em 0.25rem 0.25rem 0em;
 }
 .ui.steps .step:last-child {
   border-right: none;
@@ -140,8 +130,8 @@
 
 /* Title */
 .ui.steps .step .title {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 1.14285714em;
+  font-family: 'Signika Negative', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 1.125em;
   font-weight: bold;
 }
 .ui.steps .step > .title {
@@ -151,8 +141,8 @@
 /* Description */
 .ui.steps .step .description {
   font-weight: normal;
-  font-size: 0.92857143em;
-  color: rgba(0, 0, 0, 0.87);
+  font-size: 0.9375em;
+  color: #4D4D4D;
 }
 .ui.steps .step > .description {
   width: 100%;
@@ -171,16 +161,13 @@
 .ui.steps .step > .icon ~ .content {
   display: block;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 1 auto;
       -ms-flex: 0 1 auto;
           flex: 0 1 auto;
-  -webkit-align-self: middle;
-      -ms-flex-item-align: middle;
-          align-self: middle;
+  -ms-flex-item-align: middle;
+      align-self: middle;
 }
 .ui.steps .step > .icon ~ .content {
   -webkit-box-flex: 1 0 auto;
-  -webkit-flex-grow: 1 0 auto;
       -ms-flex-positive: 1 0 auto;
           flex-grow: 1 0 auto;
 }
@@ -214,9 +201,8 @@
   position: static;
   text-align: center;
   content: counters(ordered, ".");
-  -webkit-align-self: middle;
-      -ms-flex-item-align: middle;
-          align-self: middle;
+  -ms-flex-item-align: middle;
+      align-self: middle;
   margin-right: 1rem;
   font-size: 2.5em;
   counter-increment: ordered;
@@ -225,9 +211,8 @@
 }
 .ui.ordered.steps .step > * {
   display: block;
-  -webkit-align-self: middle;
-      -ms-flex-item-align: middle;
-          align-self: middle;
+  -ms-flex-item-align: middle;
+      align-self: middle;
 }
 
 /*--------------
@@ -236,33 +221,30 @@
 
 .ui.vertical.steps {
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
   overflow: visible;
 }
 .ui.vertical.steps .step {
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
           justify-content: flex-start;
   border-radius: 0em;
-  padding: 1.14285714em 2em;
+  padding: 1.125em 2em;
   border-right: none;
   border-bottom: 1px solid rgba(34, 36, 38, 0.15);
 }
 .ui.vertical.steps .step:first-child {
-  padding: 1.14285714em 2em;
-  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
+  padding: 1.125em 2em;
+  border-radius: 0.25rem 0.25rem 0em 0em;
 }
 .ui.vertical.steps .step:last-child {
   border-bottom: none;
-  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+  border-radius: 0em 0em 0.25rem 0.25rem;
 }
 
 /* Arrow */
@@ -296,13 +278,11 @@
 @media only screen and (max-width: 767px) {
   .ui.steps {
     display: -webkit-inline-box;
-    display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex;
     overflow: visible;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
   }
@@ -310,18 +290,17 @@
     width: 100% !important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
     border-radius: 0em;
-    padding: 1.14285714em 2em;
+    padding: 1.125em 2em;
   }
   .ui.steps .step:first-child {
-    padding: 1.14285714em 2em;
-    border-radius: 0.28571429rem 0.28571429rem 0em 0em;
+    padding: 1.125em 2em;
+    border-radius: 0.25rem 0.25rem 0em 0em;
   }
   .ui.steps .step:last-child {
-    border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+    border-radius: 0em 0em 0.25rem 0.25rem;
   }
   
 /* Arrow */
@@ -352,7 +331,7 @@
 .ui.steps .link.step:hover,
 .ui.steps a.step:hover::after,
 .ui.steps a.step:hover {
-  background: #f9fafb;
+  background: #F9FAFB;
   color: rgba(0, 0, 0, 0.8);
 }
 
@@ -361,20 +340,20 @@
 .ui.steps .link.step:active,
 .ui.steps a.step:active::after,
 .ui.steps a.step:active {
-  background: #f3f4f5;
+  background: #F3F4F5;
   color: rgba(0, 0, 0, 0.9);
 }
 
 /* Active */
 .ui.steps .step.active {
   cursor: auto;
-  background: #f3f4f5;
+  background: #F3F4F5;
 }
 .ui.steps .step.active:after {
-  background: #f3f4f5;
+  background: #F3F4F5;
 }
 .ui.steps .step.active .title {
-  color: #4183c4;
+  color: #4183C4;
 }
 .ui.ordered.steps .step.active:before,
 .ui.steps .active.step .icon {
@@ -401,20 +380,20 @@
 .ui.steps a.active.step:hover::after,
 .ui.steps a.active.step:hover {
   cursor: pointer;
-  background: #dcddde;
-  color: rgba(0, 0, 0, 0.87);
+  background: #DCDDDE;
+  color: #4D4D4D;
 }
 
 /* Completed */
 .ui.steps .step.completed > .icon:before,
 .ui.ordered.steps .step.completed:before {
-  color: #21ba45;
+  color: #6fbe44;
 }
 
 /* Disabled */
 .ui.steps .disabled.step {
   cursor: auto;
-  background: #ffffff;
+  background: #FFFFFF;
   pointer-events: none;
 }
 .ui.steps .disabled.step,
@@ -423,7 +402,7 @@
   color: rgba(40, 40, 40, 0.3);
 }
 .ui.steps .disabled.step:after {
-  background: #ffffff;
+  background: #FFFFFF;
 }
 
 
@@ -441,13 +420,11 @@
 @media only screen and (max-width: 992px) {
   .ui[class*="tablet stackable"].steps {
     display: -webkit-inline-box;
-    display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex;
     overflow: visible;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
   }
@@ -456,18 +433,17 @@
   .ui[class*="tablet stackable"].steps .step {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
     border-radius: 0em;
-    padding: 1.14285714em 2em;
+    padding: 1.125em 2em;
   }
   .ui[class*="tablet stackable"].steps .step:first-child {
-    padding: 1.14285714em 2em;
-    border-radius: 0.28571429rem 0.28571429rem 0em 0em;
+    padding: 1.125em 2em;
+    border-radius: 0.25rem 0.25rem 0em 0em;
   }
   .ui[class*="tablet stackable"].steps .step:last-child {
-    border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+    border-radius: 0em 0em 0.25rem 0.25rem;
   }
   
 /* Arrow */
@@ -495,7 +471,6 @@
 /* Fluid */
 .ui.fluid.steps {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
@@ -511,25 +486,25 @@
   width: calc(100% +  2px ) !important;
   margin: 0em -1px -1px;
   max-width: calc(100% +  2px );
-  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
+  border-radius: 0.25rem 0.25rem 0em 0em;
 }
 .ui.attached.steps .step:first-child {
-  border-radius: 0.28571429rem 0em 0em 0em;
+  border-radius: 0.25rem 0em 0em 0em;
 }
 .ui.attached.steps .step:last-child {
-  border-radius: 0em 0.28571429rem 0em 0em;
+  border-radius: 0em 0.25rem 0em 0em;
 }
 
 /* Bottom */
 .ui.bottom.attached.steps {
   margin: -1px -1px 0em;
-  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+  border-radius: 0em 0em 0.25rem 0.25rem;
 }
 .ui.bottom.attached.steps .step:first-child {
-  border-radius: 0em 0em 0em 0.28571429rem;
+  border-radius: 0em 0em 0em 0.25rem;
 }
 .ui.bottom.attached.steps .step:last-child {
-  border-radius: 0em 0em 0.28571429rem 0em;
+  border-radius: 0em 0em 0.25rem 0em;
 }
 
 /*-------------------
@@ -554,9 +529,8 @@
 .ui.six.steps > .step,
 .ui.seven.steps > .step,
 .ui.eight.steps > .step {
-  -webkit-flex-wrap: nowrap;
-      -ms-flex-wrap: nowrap;
-          flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 .ui.one.steps > .step {
   width: 100%;
@@ -589,7 +563,7 @@
 
 .ui.small.step,
 .ui.small.steps .step {
-  font-size: 0.92857143rem;
+  font-size: 0.9375rem;
 }
 .ui.step,
 .ui.steps .step {
@@ -597,7 +571,7 @@
 }
 .ui.large.step,
 .ui.large.steps .step {
-  font-size: 1.14285714rem;
+  font-size: 1.125rem;
 }
 
 

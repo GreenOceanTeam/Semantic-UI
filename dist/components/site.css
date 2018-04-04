@@ -14,24 +14,24 @@
              Page
 *******************************/
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
+@import url('https://fonts.googleapis.com/css?family=Signika Negative:400,700&subset=latin');
 html,
 body {
   height: 100%;
 }
 html {
-  font-size: 14px;
+  font-size: 16px;
 }
 body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
   min-width: 320px;
-  background: #ffffff;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  background: #FFFFFF;
+  font-family: 'Signika Negative', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 16px;
   line-height: 1.4285em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #4D4D4D;
   font-smoothing: antialiased;
 }
 
@@ -45,27 +45,27 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Signika Negative', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   line-height: 1.2857em;
   margin: calc(2rem -  0.14285em ) 0em 1rem;
-  font-weight: bold;
+  font-weight: 600;
   padding: 0em;
 }
 h1 {
   min-height: 1rem;
-  font-size: 2rem;
+  font-size: 4.5rem;
 }
 h2 {
-  font-size: 1.714rem;
+  font-size: 3.75rem;
 }
 h3 {
-  font-size: 1.28rem;
+  font-size: 2.75rem;
 }
 h4 {
-  font-size: 1.071rem;
+  font-size: 1.75rem;
 }
 h5 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 h1:first-child,
 h2:first-child,
@@ -103,7 +103,7 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #4183c4;
+  color: #4183C4;
   text-decoration: none;
 }
 a:hover {
@@ -119,33 +119,33 @@ a:hover {
 
 /* Site */
 ::-webkit-selection {
-  background-color: #cce2ff;
-  color: rgba(0, 0, 0, 0.87);
+  background-color: #CCE2FF;
+  color: #4D4D4D;
 }
 ::-moz-selection {
-  background-color: #cce2ff;
-  color: rgba(0, 0, 0, 0.87);
+  background-color: #CCE2FF;
+  color: #4D4D4D;
 }
 ::selection {
-  background-color: #cce2ff;
-  color: rgba(0, 0, 0, 0.87);
+  background-color: #CCE2FF;
+  color: #4D4D4D;
 }
 
 /* Form */
 textarea::-webkit-selection,
 input::-webkit-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #4D4D4D;
 }
 textarea::-moz-selection,
 input::-moz-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #4D4D4D;
 }
 textarea::selection,
 input::selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #4D4D4D;
 }
 
 

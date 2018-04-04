@@ -33,16 +33,14 @@
 /* Event */
 .ui.feed > .event {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
   width: 100%;
-  padding: 0.21428571rem 0em;
+  padding: 0.1875rem 0em;
   margin: 0em;
   background: none;
   border-top: none;
@@ -59,14 +57,12 @@
 .ui.feed > .event > .label {
   display: block;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
   width: 2.5em;
   height: auto;
-  -webkit-align-self: stretch;
-      -ms-flex-item-align: stretch;
-          align-self: stretch;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
   text-align: left;
 }
 .ui.feed > .event > .label .icon {
@@ -85,7 +81,7 @@
   border-radius: 500rem;
 }
 .ui.feed > .event > .label + .content {
-  margin: 0.5em 0em 0.35714286em 1.14285714em;
+  margin: 0.5em 0em 0.3125em 1.125em;
 }
 
 /*--------------
@@ -97,12 +93,10 @@
 .ui.feed > .event > .content {
   display: block;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-  -webkit-align-self: stretch;
-      -ms-flex-item-align: stretch;
-          align-self: stretch;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
   text-align: left;
   word-wrap: break-word;
 }
@@ -136,7 +130,7 @@
   margin: 0em;
   font-size: 1em;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+  color: #4D4D4D;
 }
 
 /* Summary Image */
@@ -176,7 +170,7 @@
   display: inline-block;
   float: none;
   font-weight: normal;
-  font-size: 0.85714286em;
+  font-size: 0.875em;
   font-style: normal;
   margin: 0em 0em 0em 0.5em;
   padding: 0em;
@@ -191,7 +185,7 @@
   margin: 0.5em 0em 0em;
   background: none;
   padding: 0em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #4D4D4D;
 }
 
 /* Images */
@@ -216,7 +210,7 @@
 
 .ui.feed > .event > .content .meta {
   display: inline-block;
-  font-size: 0.85714286em;
+  font-size: 0.875em;
   margin: 0.5em 0em 0em;
   background: none;
   border: none;
@@ -244,10 +238,10 @@
           transition: 0.2s color ease;
 }
 .ui.feed > .event > .content .meta .like:hover .icon {
-  color: #ff2733;
+  color: #FF2733;
 }
 .ui.feed > .event > .content .meta .active.like .icon {
-  color: #ef404a;
+  color: #EF404A;
 }
 
 /* First element */
@@ -279,13 +273,13 @@
 *******************************/
 
 .ui.small.feed {
-  font-size: 0.92857143rem;
+  font-size: 0.9375rem;
 }
 .ui.feed {
   font-size: 1rem;
 }
 .ui.large.feed {
-  font-size: 1.14285714rem;
+  font-size: 1.125rem;
 }
 
 
