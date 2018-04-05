@@ -554,15 +554,15 @@ h5 {
 
 h1 {
   min-height: 1rem;
-  font-size: 4.5rem;
-}
-
-h2 {
   font-size: 3.75rem;
 }
 
-h3 {
+h2 {
   font-size: 2.75rem;
+}
+
+h3 {
+  font-size: 2.25rem;
 }
 
 h4 {
@@ -6147,15 +6147,15 @@ i.flag.zimbabwe:before {
 ---------------*/
 
 h1.ui.header {
-  font-size: 4.5rem;
-}
-
-h2.ui.header {
   font-size: 3.75rem;
 }
 
-h3.ui.header {
+h2.ui.header {
   font-size: 2.75rem;
+}
+
+h3.ui.header {
+  font-size: 2.25rem;
 }
 
 h4.ui.header {
@@ -6194,15 +6194,15 @@ h5.ui.header .sub.header {
 
 .ui.huge.header {
   min-height: 1em;
-  font-size: 4.5em;
-}
-
-.ui.large.header {
   font-size: 3.75em;
 }
 
-.ui.medium.header {
+.ui.large.header {
   font-size: 2.75em;
+}
+
+.ui.medium.header {
+  font-size: 2.25em;
 }
 
 .ui.small.header {
@@ -6822,7 +6822,7 @@ a.ui.inverted.grey.header:hover {
 --------------------*/
 
 .ui.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
-  font-size: 2.75em;
+  font-size: 2.25em;
 }
 
 /*******************************
