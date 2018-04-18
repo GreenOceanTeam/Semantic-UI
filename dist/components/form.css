@@ -68,31 +68,31 @@
 
 .ui.form textarea,
 .ui.form input:not([type]),
-.ui.form input[type="date"],
-.ui.form input[type="datetime-local"],
-.ui.form input[type="email"],
-.ui.form input[type="number"],
-.ui.form input[type="password"],
-.ui.form input[type="search"],
-.ui.form input[type="tel"],
-.ui.form input[type="time"],
-.ui.form input[type="text"],
-.ui.form input[type="url"],
+.ui.form input[type='date'],
+.ui.form input[type='datetime-local'],
+.ui.form input[type='email'],
+.ui.form input[type='number'],
+.ui.form input[type='password'],
+.ui.form input[type='search'],
+.ui.form input[type='tel'],
+.ui.form input[type='time'],
+.ui.form input[type='text'],
+.ui.form input[type='url'],
 .ui.form .ui.input {
   width: 100%;
   vertical-align: top;
 }
 .ui.form input:not([type]),
-.ui.form input[type="date"],
-.ui.form input[type="datetime-local"],
-.ui.form input[type="email"],
-.ui.form input[type="number"],
-.ui.form input[type="password"],
-.ui.form input[type="search"],
-.ui.form input[type="tel"],
-.ui.form input[type="time"],
-.ui.form input[type="text"],
-.ui.form input[type="url"] {
+.ui.form input[type='date'],
+.ui.form input[type='datetime-local'],
+.ui.form input[type='email'],
+.ui.form input[type='number'],
+.ui.form input[type='password'],
+.ui.form input[type='search'],
+.ui.form input[type='tel'],
+.ui.form input[type='time'],
+.ui.form input[type='text'],
+.ui.form input[type='url'] {
   font-family: 'Signika Negative', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0em;
   outline: none;
@@ -103,7 +103,7 @@
   font-size: 1em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  color: #4D4D4D;
+  color: #767676;
   border-radius: 0.25rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
@@ -124,7 +124,7 @@
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
   outline: none;
-  color: #4D4D4D;
+  color: #767676;
   border-radius: 0.25rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
@@ -139,7 +139,7 @@
   max-height: 24em;
 }
 .ui.form textarea,
-.ui.form input[type="checkbox"] {
+.ui.form input[type='checkbox'] {
   vertical-align: top;
 }
 
@@ -164,7 +164,7 @@
   border-radius: 0.25rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   padding: 0.62em 0.875em;
-  color: #4D4D4D;
+  color: #767676;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
           transition: color 0.1s ease, border-color 0.1s ease;
 }
@@ -261,42 +261,66 @@
 
 
 /* browsers require these rules separate */
-.ui.form ::-webkit-input-placeholder {
-  color: #d9d9d9;
+.ui.form .ui.input input::-webkit-input-placeholder {
+  color: #8d949c;
 }
-.ui.form ::-ms-input-placeholder {
-  color: #d9d9d9;
+.ui.form .ui.input input::-ms-placeholder {
+  color: #8d949c;
 }
-.ui.form ::-moz-placeholder {
-  color: #d9d9d9;
+.ui.form .ui.input input::-webkit-input-placeholder {
+  color: #8d949c;
 }
-.ui.form :focus::-webkit-input-placeholder {
-  color: #a6a6a6;
+.ui.form .ui.input input:-ms-input-placeholder {
+  color: #8d949c;
 }
-.ui.form :focus::-ms-input-placeholder {
-  color: #a6a6a6;
+.ui.form .ui.input input::placeholder {
+  color: #8d949c;
 }
-.ui.form :focus::-moz-placeholder {
-  color: #a6a6a6;
+.ui.form .ui.input input :focus::-webkit-input-placeholder {
+  color: #8d949c;
+}
+.ui.form .ui.input input :focus::-ms-placeholder {
+  color: #8d949c;
+}
+.ui.form .ui.input input :focus::-webkit-input-placeholder {
+  color: #8d949c;
+}
+.ui.form .ui.input input :focus:-ms-input-placeholder {
+  color: #8d949c;
+}
+.ui.form .ui.input input :focus::placeholder {
+  color: #8d949c;
 }
 
 /* Error Placeholder */
-.ui.form .error ::-webkit-input-placeholder {
+.ui.form .ui.input input .error::-webkit-input-placeholder {
   color: #bf4d4b;
 }
-.ui.form .error ::-ms-input-placeholder {
+.ui.form .ui.input input .error::-ms-placeholder {
   color: #bf4d4b;
 }
-.ui.form .error ::-moz-placeholder {
+.ui.form .ui.input input .error::-webkit-input-placeholder {
   color: #bf4d4b;
 }
-.ui.form .error :focus::-webkit-input-placeholder {
+.ui.form .ui.input input .error:-ms-input-placeholder {
+  color: #bf4d4b;
+}
+.ui.form .ui.input input .error::placeholder {
+  color: #bf4d4b;
+}
+.ui.form .ui.input input .error:focus::-webkit-input-placeholder {
   color: #b2413f;
 }
-.ui.form .error :focus::-ms-input-placeholder {
+.ui.form .ui.input input .error:focus::-ms-placeholder {
   color: #b2413f;
 }
-.ui.form .error :focus::-moz-placeholder {
+.ui.form .ui.input input .error:focus::-webkit-input-placeholder {
+  color: #b2413f;
+}
+.ui.form .ui.input input .error:focus:-ms-input-placeholder {
+  color: #b2413f;
+}
+.ui.form .ui.input input .error:focus::placeholder {
   color: #b2413f;
 }
 
@@ -305,24 +329,24 @@
 ---------------------*/
 
 .ui.form input:not([type]):focus,
-.ui.form input[type="date"]:focus,
-.ui.form input[type="datetime-local"]:focus,
-.ui.form input[type="email"]:focus,
-.ui.form input[type="number"]:focus,
-.ui.form input[type="password"]:focus,
-.ui.form input[type="search"]:focus,
-.ui.form input[type="tel"]:focus,
-.ui.form input[type="time"]:focus,
-.ui.form input[type="text"]:focus,
-.ui.form input[type="url"]:focus {
-  color: rgba(0, 0, 0, 0.95);
+.ui.form input[type='date']:focus,
+.ui.form input[type='datetime-local']:focus,
+.ui.form input[type='email']:focus,
+.ui.form input[type='number']:focus,
+.ui.form input[type='password']:focus,
+.ui.form input[type='search']:focus,
+.ui.form input[type='tel']:focus,
+.ui.form input[type='time']:focus,
+.ui.form input[type='text']:focus,
+.ui.form input[type='url']:focus {
+  color: #767676;
   border-color: rgba(34, 36, 38, 0.35);
   border-radius: 0.25rem;
   background: #FFFFFF;
   box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.35) inset;
 }
 .ui.form textarea:focus {
-  color: rgba(0, 0, 0, 0.95);
+  color: #767676;
   border-color: rgba(34, 36, 38, 0.35);
   border-radius: 0.25rem;
   background: #FFFFFF;
@@ -390,29 +414,29 @@
 .ui.form .fields.error .field textarea,
 .ui.form .fields.error .field select,
 .ui.form .fields.error .field input:not([type]),
-.ui.form .fields.error .field input[type="date"],
-.ui.form .fields.error .field input[type="datetime-local"],
-.ui.form .fields.error .field input[type="email"],
-.ui.form .fields.error .field input[type="number"],
-.ui.form .fields.error .field input[type="password"],
-.ui.form .fields.error .field input[type="search"],
-.ui.form .fields.error .field input[type="tel"],
-.ui.form .fields.error .field input[type="time"],
-.ui.form .fields.error .field input[type="text"],
-.ui.form .fields.error .field input[type="url"],
+.ui.form .fields.error .field input[type='date'],
+.ui.form .fields.error .field input[type='datetime-local'],
+.ui.form .fields.error .field input[type='email'],
+.ui.form .fields.error .field input[type='number'],
+.ui.form .fields.error .field input[type='password'],
+.ui.form .fields.error .field input[type='search'],
+.ui.form .fields.error .field input[type='tel'],
+.ui.form .fields.error .field input[type='time'],
+.ui.form .fields.error .field input[type='text'],
+.ui.form .fields.error .field input[type='url'],
 .ui.form .field.error textarea,
 .ui.form .field.error select,
 .ui.form .field.error input:not([type]),
-.ui.form .field.error input[type="date"],
-.ui.form .field.error input[type="datetime-local"],
-.ui.form .field.error input[type="email"],
-.ui.form .field.error input[type="number"],
-.ui.form .field.error input[type="password"],
-.ui.form .field.error input[type="search"],
-.ui.form .field.error input[type="tel"],
-.ui.form .field.error input[type="time"],
-.ui.form .field.error input[type="text"],
-.ui.form .field.error input[type="url"] {
+.ui.form .field.error input[type='date'],
+.ui.form .field.error input[type='datetime-local'],
+.ui.form .field.error input[type='email'],
+.ui.form .field.error input[type='number'],
+.ui.form .field.error input[type='password'],
+.ui.form .field.error input[type='search'],
+.ui.form .field.error input[type='tel'],
+.ui.form .field.error input[type='time'],
+.ui.form .field.error input[type='text'],
+.ui.form .field.error input[type='url'] {
   background: #FFF6F6;
   border-color: #E0B4B4;
   color: #9F3A38;
@@ -422,16 +446,16 @@
 .ui.form .field.error textarea:focus,
 .ui.form .field.error select:focus,
 .ui.form .field.error input:not([type]):focus,
-.ui.form .field.error input[type="date"]:focus,
-.ui.form .field.error input[type="datetime-local"]:focus,
-.ui.form .field.error input[type="email"]:focus,
-.ui.form .field.error input[type="number"]:focus,
-.ui.form .field.error input[type="password"]:focus,
-.ui.form .field.error input[type="search"]:focus,
-.ui.form .field.error input[type="tel"]:focus,
-.ui.form .field.error input[type="time"]:focus,
-.ui.form .field.error input[type="text"]:focus,
-.ui.form .field.error input[type="url"]:focus {
+.ui.form .field.error input[type='date']:focus,
+.ui.form .field.error input[type='datetime-local']:focus,
+.ui.form .field.error input[type='email']:focus,
+.ui.form .field.error input[type='number']:focus,
+.ui.form .field.error input[type='password']:focus,
+.ui.form .field.error input[type='search']:focus,
+.ui.form .field.error input[type='tel']:focus,
+.ui.form .field.error input[type='time']:focus,
+.ui.form .field.error input[type='text']:focus,
+.ui.form .field.error input[type='url']:focus {
   background: #FFF6F6;
   border-color: #E0B4B4;
   color: #9F3A38;

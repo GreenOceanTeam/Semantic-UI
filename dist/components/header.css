@@ -300,14 +300,14 @@ h5.ui.header .sub.header {
   color: rgba(255, 255, 255, 0.8);
 }
 .ui.inverted.attached.header {
-  background: #545454 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #545454 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #767676 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #767676 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   box-shadow: none;
   border-color: transparent;
 }
 .ui.inverted.block.header {
-  background: #545454 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #545454 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #767676 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #767676 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   box-shadow: none;
 }
 .ui.inverted.block.header {
@@ -442,13 +442,13 @@ a.ui.inverted.teal.header:hover {
 /*--- Blue ---*/
 
 .ui.blue.header {
-  color: #2185D0 !important;
+  color: #43bae4 !important;
 }
 a.ui.blue.header:hover {
-  color: #1678c2 !important;
+  color: #24b6ea !important;
 }
 .ui.blue.dividing.header {
-  border-bottom: 2px solid #2185D0;
+  border-bottom: 2px solid #43bae4;
 }
 
 /* Inverted */
@@ -736,4 +736,27 @@ h3.ui.header {
 }
 h4.ui.header {
   font-weight: normal;
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  h1.ui.header {
+    font-size: 2.25rem;
+  }
+  h2.ui.header {
+    font-size: 2.0rem;
+  }
+  h3.ui.header {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  h4.ui.header {
+    font-size: 1.4rem;
+  }
+  h5.ui.header {
+    font-size: 1.25rem;
+  }
+  h6.ui.header {
+    font-size: 1.1rem;
+  }
 }

@@ -691,14 +691,14 @@ a.ui.teal.label:hover:before {
 
 .ui.blue.labels .label,
 .ui.blue.label {
-  background-color: #2185D0 !important;
-  border-color: #2185D0 !important;
+  background-color: #43bae4 !important;
+  border-color: #43bae4 !important;
   color: #FFFFFF !important;
 }
 .ui.labels .blue.label:before,
 .ui.blue.labels .label:before,
 .ui.blue.label:before {
-  background-color: #2185D0 !important;
+  background-color: #43bae4 !important;
 }
 .ui.blue.corner.label,
 .ui.blue.corner.label:hover {
@@ -706,17 +706,17 @@ a.ui.teal.label:hover:before {
 }
 a.ui.blue.labels .label:hover,
 a.ui.blue.label:hover {
-  background-color: #1678c2 !important;
-  border-color: #1678c2 !important;
+  background-color: #24b6ea !important;
+  border-color: #24b6ea !important;
   color: #FFFFFF !important;
 }
 .ui.labels a.blue.label:hover:before,
 .ui.blue.labels a.label:hover:before,
 a.ui.blue.label:hover:before {
-  background-color: #1678c2 !important;
+  background-color: #24b6ea !important;
 }
 .ui.blue.ribbon.label {
-  border-color: #1a69a4 !important;
+  border-color: #1fa6d5 !important;
 }
 
 /*--- Violet ---*/
@@ -1109,3 +1109,10 @@ a.ui.black.label:hover:before {
          Site Overrides
 *******************************/
 
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .ui.checkbox label {
+    line-height: 1.5rem;
+  }
+}

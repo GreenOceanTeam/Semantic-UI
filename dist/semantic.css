@@ -611,12 +611,12 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #4183C4;
+  color: #43bae4;
   text-decoration: none;
 }
 
 a:hover {
-  color: #1e70bf;
+  color: #00a4dd;
   text-decoration: none;
 }
 
@@ -2119,7 +2119,7 @@ input::selection {
 .ui.inverted.black.basic.buttons .button:focus,
 .ui.inverted.black.basic.button:focus {
   box-shadow: 0px 0px 0px 2px #000000 inset !important;
-  color: #545454 !important;
+  color: #767676 !important;
 }
 
 .ui.inverted.black.basic.buttons .active.button,
@@ -2462,7 +2462,7 @@ input::selection {
 
 .ui.blue.buttons .button,
 .ui.blue.button {
-  background-color: #2185D0;
+  background-color: #43bae4;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -2474,21 +2474,21 @@ input::selection {
 
 .ui.blue.buttons .button:hover,
 .ui.blue.button:hover {
-  background-color: #1678c2;
+  background-color: #24b6ea;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.blue.buttons .button:focus,
 .ui.blue.button:focus {
-  background-color: #0d71bb;
+  background-color: #0db6f1;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.blue.buttons .button:active,
 .ui.blue.button:active {
-  background-color: #1a69a4;
+  background-color: #1fa6d5;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -2497,7 +2497,7 @@ input::selection {
 .ui.blue.buttons .active.button:active,
 .ui.blue.active.button,
 .ui.blue.button .active.button:active {
-  background-color: #1279c6;
+  background-color: #1fb8ee;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -2513,27 +2513,27 @@ input::selection {
 .ui.basic.blue.buttons .button:hover,
 .ui.basic.blue.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #1678c2 inset !important;
-  color: #1678c2 !important;
+  box-shadow: 0px 0px 0px 2px #24b6ea inset !important;
+  color: #24b6ea !important;
 }
 
 .ui.basic.blue.buttons .button:focus,
 .ui.basic.blue.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #0d71bb inset !important;
+  box-shadow: 0px 0px 0px 2px #0db6f1 inset !important;
 }
 
 .ui.basic.blue.buttons .active.button,
 .ui.basic.blue.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #1279c6 inset !important;
-  color: #1a69a4 !important;
+  box-shadow: 0px 0px 0px 2px #1fb8ee inset !important;
+  color: #1fa6d5 !important;
 }
 
 .ui.basic.blue.buttons .button:active,
 .ui.basic.blue.button:active {
-  box-shadow: 0px 0px 0px 2px #1a69a4 inset !important;
-  color: #1a69a4 !important;
+  box-shadow: 0px 0px 0px 2px #1fa6d5 inset !important;
+  color: #1fa6d5 !important;
 }
 
 .ui.buttons:not(.vertical) > .basic.blue.button:not(:first-child) {
@@ -4074,7 +4074,7 @@ input::selection {
 
 .ui.primary.buttons .button,
 .ui.primary.button {
-  background-color: #2185D0;
+  background-color: #43bae4;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -4086,28 +4086,28 @@ input::selection {
 
 .ui.primary.buttons .button:hover,
 .ui.primary.button:hover {
-  background-color: #1678c2;
+  background-color: #24b6ea;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.primary.buttons .button:focus,
 .ui.primary.button:focus {
-  background-color: #0d71bb;
+  background-color: #0db6f1;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.primary.buttons .button:active,
 .ui.primary.button:active {
-  background-color: #1a69a4;
+  background-color: #1fa6d5;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.primary.buttons .active.button,
 .ui.primary.active.button {
-  background-color: #1279c6;
+  background-color: #1fb8ee;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -6345,15 +6345,15 @@ h5.ui.header .sub.header {
 }
 
 .ui.inverted.attached.header {
-  background: #545454 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #545454 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #767676 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #767676 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   box-shadow: none;
   border-color: transparent;
 }
 
 .ui.inverted.block.header {
-  background: #545454 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #545454 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #767676 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #767676 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   box-shadow: none;
 }
 
@@ -6512,15 +6512,15 @@ a.ui.inverted.teal.header:hover {
 /*--- Blue ---*/
 
 .ui.blue.header {
-  color: #2185D0 !important;
+  color: #43bae4 !important;
 }
 
 a.ui.blue.header:hover {
-  color: #1678c2 !important;
+  color: #24b6ea !important;
 }
 
 .ui.blue.dividing.header {
-  border-bottom: 2px solid #2185D0;
+  border-bottom: 2px solid #43bae4;
 }
 
 /* Inverted */
@@ -6854,6 +6854,35 @@ h3.ui.header {
 h4.ui.header {
   font-weight: normal;
 }
+
+/* Mobile */
+
+@media only screen and (max-width: 767px) {
+  h1.ui.header {
+    font-size: 2.25rem;
+  }
+
+  h2.ui.header {
+    font-size: 2.0rem;
+  }
+
+  h3.ui.header {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  h4.ui.header {
+    font-size: 1.4rem;
+  }
+
+  h5.ui.header {
+    font-size: 1.25rem;
+  }
+
+  h6.ui.header {
+    font-size: 1.1rem;
+  }
+}
 /*!
  * # Semantic UI 2.0.7 - Icon
  * http://github.com/semantic-org/semantic-ui/
@@ -7168,7 +7197,7 @@ i.inverted.circular.teal.icon {
 /* Blue */
 
 i.blue.icon {
-  color: #2185D0 !important;
+  color: #43bae4 !important;
 }
 
 i.inverted.blue.icon {
@@ -7177,7 +7206,7 @@ i.inverted.blue.icon {
 
 i.inverted.bordered.blue.icon,
 i.inverted.circular.blue.icon {
-  background-color: #2185D0 !important;
+  background-color: #43bae4 !important;
   color: #FFFFFF !important;
 }
 
@@ -7268,7 +7297,7 @@ i.black.icon {
 }
 
 i.inverted.black.icon {
-  color: #545454 !important;
+  color: #767676 !important;
 }
 
 i.inverted.bordeblack.black.icon,
@@ -10515,7 +10544,7 @@ img.ui.bordered.image {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  color: #4D4D4D;
+  color: #767676;
 }
 
 .ui.input input {
@@ -10532,7 +10561,7 @@ img.ui.bordered.image {
   padding: 0.5804em 0.875em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  color: #4D4D4D;
+  color: #767676;
   border-radius: 0.25rem;
   -webkit-transition: background-color 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
   transition: background-color 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
@@ -10700,7 +10729,7 @@ img.ui.bordered.image {
   padding-right: 2em !important;
 }
 
-.ui.transparent[class*="left icon"].input > input {
+.ui.transparent[class*='left icon'].input > input {
   padding-left: 2em !important;
   padding-right: 0em !important;
 }
@@ -10776,18 +10805,18 @@ img.ui.bordered.image {
 
 /* Left Icon Input */
 
-.ui[class*="left icon"].input > i.icon {
+.ui[class*='left icon'].input > i.icon {
   right: auto;
   left: 1px;
   border-radius: 0.25rem 0em 0em 0.25rem;
 }
 
-.ui[class*="left icon"].input > i.circular.icon {
+.ui[class*='left icon'].input > i.circular.icon {
   right: auto;
   left: 0.5em;
 }
 
-.ui[class*="left icon"].input > input {
+.ui[class*='left icon'].input > input {
   padding-left: 2.475em !important;
   padding-right: 0.875em !important;
 }
@@ -10819,26 +10848,26 @@ img.ui.bordered.image {
 
 /* Regular Label on Left */
 
-.ui.labeled.input:not([class*="corner labeled"]):not([class*="right labeled"]) > input {
+.ui.labeled.input:not([class*='corner labeled']):not([class*='right labeled']) > input {
   border-left: none;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 }
 
-.ui.labeled.input:not([class*="corner labeled"]):not([class*="right labeled"]) > .label {
+.ui.labeled.input:not([class*='corner labeled']):not([class*='right labeled']) > .label {
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
 
 /* Regular Label on Right */
 
-.ui[class*="right labeled"].input > input {
+.ui[class*='right labeled'].input > input {
   border-right: none;
   border-top-right-radius: 0px !important;
   border-bottom-right-radius: 0px !important;
 }
 
-.ui[class*="right labeled"].input > .label {
+.ui[class*='right labeled'].input > .label {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 }
@@ -10854,29 +10883,29 @@ img.ui.bordered.image {
 
 /* Spacing with corner label */
 
-.ui[class*="corner labeled"]:not(.left).labeled.input input {
+.ui[class*='corner labeled']:not(.left).labeled.input input {
   padding-right: 2.5em !important;
 }
 
-.ui[class*="corner labeled"].icon.input:not(.left) > input {
+.ui[class*='corner labeled'].icon.input:not(.left) > input {
   padding-right: 3.25em !important;
 }
 
-.ui[class*="corner labeled"].icon.input:not(.left) > .icon {
+.ui[class*='corner labeled'].icon.input:not(.left) > .icon {
   margin-right: 1.25em;
 }
 
 /* Left Labeled */
 
-.ui[class*="corner labeled"].left.labeled.input input {
+.ui[class*='corner labeled'].left.labeled.input input {
   padding-left: 2.5em !important;
 }
 
-.ui[class*="corner labeled"].icon.input.left > input {
+.ui[class*='corner labeled'].icon.input.left > input {
   padding-left: 3.25em !important;
 }
 
-.ui[class*="corner labeled"].icon.input.left > .icon {
+.ui[class*='corner labeled'].icon.input.left > .icon {
   margin-left: 1.25em;
 }
 
@@ -10918,39 +10947,39 @@ img.ui.bordered.image {
 
 /* Button on Right */
 
-.ui.action.input:not([class*="left action"]) > input {
+.ui.action.input:not([class*='left action']) > input {
   border-right: none;
   border-top-right-radius: 0px !important;
   border-bottom-right-radius: 0px !important;
 }
 
-.ui.action.input:not([class*="left action"]) > .dropdown,
-.ui.action.input:not([class*="left action"]) > .button,
-.ui.action.input:not([class*="left action"]) > .buttons > .button {
+.ui.action.input:not([class*='left action']) > .dropdown,
+.ui.action.input:not([class*='left action']) > .button,
+.ui.action.input:not([class*='left action']) > .buttons > .button {
   border-radius: 0px;
 }
 
-.ui.action.input:not([class*="left action"]) > .dropdown:last-child,
-.ui.action.input:not([class*="left action"]) > .button:last-child,
-.ui.action.input:not([class*="left action"]) > .buttons:last-child > .button {
+.ui.action.input:not([class*='left action']) > .dropdown:last-child,
+.ui.action.input:not([class*='left action']) > .button:last-child,
+.ui.action.input:not([class*='left action']) > .buttons:last-child > .button {
   border-radius: 0px 0.25rem 0.25rem 0px;
 }
 
 /* Button on Left */
 
-.ui[class*="left action"].input > .dropdown,
-.ui[class*="left action"].input > .button,
-.ui[class*="left action"].input > .buttons > .button {
+.ui[class*='left action'].input > .dropdown,
+.ui[class*='left action'].input > .button,
+.ui[class*='left action'].input > .buttons > .button {
   border-radius: 0px;
 }
 
-.ui[class*="left action"].input > .dropdown:first-child,
-.ui[class*="left action"].input > .button:first-child,
-.ui[class*="left action"].input > .buttons:first-child > .button {
+.ui[class*='left action'].input > .dropdown:first-child,
+.ui[class*='left action'].input > .button:first-child,
+.ui[class*='left action'].input > .buttons:first-child > .button {
   border-radius: 0.25rem 0px 0px 0.25rem;
 }
 
-.ui[class*="left action"].input > input {
+.ui[class*='left action'].input > input {
   border-left: none;
   border-top-left-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
@@ -11780,15 +11809,15 @@ a.ui.teal.label:hover:before {
 
 .ui.blue.labels .label,
 .ui.blue.label {
-  background-color: #2185D0 !important;
-  border-color: #2185D0 !important;
+  background-color: #43bae4 !important;
+  border-color: #43bae4 !important;
   color: #FFFFFF !important;
 }
 
 .ui.labels .blue.label:before,
 .ui.blue.labels .label:before,
 .ui.blue.label:before {
-  background-color: #2185D0 !important;
+  background-color: #43bae4 !important;
 }
 
 .ui.blue.corner.label,
@@ -11798,19 +11827,19 @@ a.ui.teal.label:hover:before {
 
 a.ui.blue.labels .label:hover,
 a.ui.blue.label:hover {
-  background-color: #1678c2 !important;
-  border-color: #1678c2 !important;
+  background-color: #24b6ea !important;
+  border-color: #24b6ea !important;
   color: #FFFFFF !important;
 }
 
 .ui.labels a.blue.label:hover:before,
 .ui.blue.labels a.label:hover:before,
 a.ui.blue.label:hover:before {
-  background-color: #1678c2 !important;
+  background-color: #24b6ea !important;
 }
 
 .ui.blue.ribbon.label {
-  border-color: #1a69a4 !important;
+  border-color: #1fa6d5 !important;
 }
 
 /*--- Violet ---*/
@@ -12244,6 +12273,14 @@ a.ui.black.label:hover:before {
 /*******************************
          Site Overrides
 *******************************/
+
+/* Mobile */
+
+@media only screen and (max-width: 767px) {
+  .ui.checkbox label {
+    line-height: 1.5rem;
+  }
+}
 /*!
  * # Semantic UI 2.0.7 - List
  * http://github.com/semantic-org/semantic-ui/
@@ -12447,12 +12484,12 @@ ol.ui.list ol li,
 .ui.list .list > a.item,
 .ui.list > a.item {
   cursor: pointer;
-  color: #4183C4;
+  color: #43bae4;
 }
 
 .ui.list .list > a.item:hover,
 .ui.list > a.item:hover {
-  color: #1e70bf;
+  color: #00a4dd;
 }
 
 /* Linked Item Icons */
@@ -12467,12 +12504,12 @@ ol.ui.list ol li,
 .ui.list .list > .item a.header,
 .ui.list > .item a.header {
   cursor: pointer;
-  color: #4183C4 !important;
+  color: #43bae4 !important;
 }
 
 .ui.list .list > .item a.header:hover,
 .ui.list > .item a.header:hover {
-  color: #1e70bf !important;
+  color: #00a4dd !important;
 }
 
 /* Floated Content */
@@ -12640,7 +12677,7 @@ ol.ui.list ol li,
 
 .ui.inverted.list .list > a.item:hover,
 .ui.inverted.list > a.item:hover {
-  color: #1e70bf;
+  color: #00a4dd;
 }
 
 /* Linking Content */
@@ -12650,7 +12687,7 @@ ol.ui.list ol li,
 }
 
 .ui.inverted.list .item a:not(.ui):hover {
-  color: #1e70bf !important;
+  color: #00a4dd !important;
 }
 
 /*-------------------
@@ -14629,11 +14666,11 @@ ol.ui.horizontal.list li:before,
 /* Blue */
 
 .ui.blue.segment:not(.inverted) {
-  border-top: 2px solid #2185D0;
+  border-top: 2px solid #43bae4;
 }
 
 .ui.inverted.blue.segment {
-  background-color: #2185D0 !important;
+  background-color: #43bae4 !important;
   color: #FFFFFF !important;
 }
 
@@ -15238,7 +15275,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.steps .step.active .title {
-  color: #4183C4;
+  color: #43bae4;
 }
 
 .ui.ordered.steps .step.active:before,
@@ -15556,11 +15593,11 @@ ol.ui.horizontal.list li:before,
 /* Link */
 
 .ui.breadcrumb a {
-  color: #4183C4;
+  color: #43bae4;
 }
 
 .ui.breadcrumb a:hover {
-  color: #1e70bf;
+  color: #00a4dd;
 }
 
 /* Icon Divider */
@@ -15710,32 +15747,32 @@ ol.ui.horizontal.list li:before,
 
 .ui.form textarea,
 .ui.form input:not([type]),
-.ui.form input[type="date"],
-.ui.form input[type="datetime-local"],
-.ui.form input[type="email"],
-.ui.form input[type="number"],
-.ui.form input[type="password"],
-.ui.form input[type="search"],
-.ui.form input[type="tel"],
-.ui.form input[type="time"],
-.ui.form input[type="text"],
-.ui.form input[type="url"],
+.ui.form input[type='date'],
+.ui.form input[type='datetime-local'],
+.ui.form input[type='email'],
+.ui.form input[type='number'],
+.ui.form input[type='password'],
+.ui.form input[type='search'],
+.ui.form input[type='tel'],
+.ui.form input[type='time'],
+.ui.form input[type='text'],
+.ui.form input[type='url'],
 .ui.form .ui.input {
   width: 100%;
   vertical-align: top;
 }
 
 .ui.form input:not([type]),
-.ui.form input[type="date"],
-.ui.form input[type="datetime-local"],
-.ui.form input[type="email"],
-.ui.form input[type="number"],
-.ui.form input[type="password"],
-.ui.form input[type="search"],
-.ui.form input[type="tel"],
-.ui.form input[type="time"],
-.ui.form input[type="text"],
-.ui.form input[type="url"] {
+.ui.form input[type='date'],
+.ui.form input[type='datetime-local'],
+.ui.form input[type='email'],
+.ui.form input[type='number'],
+.ui.form input[type='password'],
+.ui.form input[type='search'],
+.ui.form input[type='tel'],
+.ui.form input[type='time'],
+.ui.form input[type='text'],
+.ui.form input[type='url'] {
   font-family: 'Signika Negative', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0em;
   outline: none;
@@ -15746,7 +15783,7 @@ ol.ui.horizontal.list li:before,
   font-size: 1em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  color: #4D4D4D;
+  color: #767676;
   border-radius: 0.25rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
@@ -15769,7 +15806,7 @@ ol.ui.horizontal.list li:before,
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
   outline: none;
-  color: #4D4D4D;
+  color: #767676;
   border-radius: 0.25rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
@@ -15786,7 +15823,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.form textarea,
-.ui.form input[type="checkbox"] {
+.ui.form input[type='checkbox'] {
   vertical-align: top;
 }
 
@@ -15811,7 +15848,7 @@ ol.ui.horizontal.list li:before,
   border-radius: 0.25rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   padding: 0.62em 0.875em;
-  color: #4D4D4D;
+  color: #767676;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
   transition: color 0.1s ease, border-color 0.1s ease;
 }
@@ -15914,53 +15951,85 @@ ol.ui.horizontal.list li:before,
 
 /* browsers require these rules separate */
 
-.ui.form ::-webkit-input-placeholder {
-  color: #d9d9d9;
+.ui.form .ui.input input::-webkit-input-placeholder {
+  color: #8d949c;
 }
 
-.ui.form ::-ms-input-placeholder {
-  color: #d9d9d9;
+.ui.form .ui.input input::-ms-placeholder {
+  color: #8d949c;
 }
 
-.ui.form ::-moz-placeholder {
-  color: #d9d9d9;
+.ui.form .ui.input input::-webkit-input-placeholder {
+  color: #8d949c;
 }
 
-.ui.form :focus::-webkit-input-placeholder {
-  color: #a6a6a6;
+.ui.form .ui.input input:-ms-input-placeholder {
+  color: #8d949c;
 }
 
-.ui.form :focus::-ms-input-placeholder {
-  color: #a6a6a6;
+.ui.form .ui.input input::placeholder {
+  color: #8d949c;
 }
 
-.ui.form :focus::-moz-placeholder {
-  color: #a6a6a6;
+.ui.form .ui.input input :focus::-webkit-input-placeholder {
+  color: #8d949c;
+}
+
+.ui.form .ui.input input :focus::-ms-placeholder {
+  color: #8d949c;
+}
+
+.ui.form .ui.input input :focus::-webkit-input-placeholder {
+  color: #8d949c;
+}
+
+.ui.form .ui.input input :focus:-ms-input-placeholder {
+  color: #8d949c;
+}
+
+.ui.form .ui.input input :focus::placeholder {
+  color: #8d949c;
 }
 
 /* Error Placeholder */
 
-.ui.form .error ::-webkit-input-placeholder {
+.ui.form .ui.input input .error::-webkit-input-placeholder {
   color: #bf4d4b;
 }
 
-.ui.form .error ::-ms-input-placeholder {
+.ui.form .ui.input input .error::-ms-placeholder {
   color: #bf4d4b;
 }
 
-.ui.form .error ::-moz-placeholder {
+.ui.form .ui.input input .error::-webkit-input-placeholder {
   color: #bf4d4b;
 }
 
-.ui.form .error :focus::-webkit-input-placeholder {
+.ui.form .ui.input input .error:-ms-input-placeholder {
+  color: #bf4d4b;
+}
+
+.ui.form .ui.input input .error::placeholder {
+  color: #bf4d4b;
+}
+
+.ui.form .ui.input input .error:focus::-webkit-input-placeholder {
   color: #b2413f;
 }
 
-.ui.form .error :focus::-ms-input-placeholder {
+.ui.form .ui.input input .error:focus::-ms-placeholder {
   color: #b2413f;
 }
 
-.ui.form .error :focus::-moz-placeholder {
+.ui.form .ui.input input .error:focus::-webkit-input-placeholder {
+  color: #b2413f;
+}
+
+.ui.form .ui.input input .error:focus:-ms-input-placeholder {
+  color: #b2413f;
+}
+
+.ui.form .ui.input input .error:focus::placeholder {
   color: #b2413f;
 }
 
@@ -15969,17 +16038,17 @@ ol.ui.horizontal.list li:before,
 ---------------------*/
 
 .ui.form input:not([type]):focus,
-.ui.form input[type="date"]:focus,
-.ui.form input[type="datetime-local"]:focus,
-.ui.form input[type="email"]:focus,
-.ui.form input[type="number"]:focus,
-.ui.form input[type="password"]:focus,
-.ui.form input[type="search"]:focus,
-.ui.form input[type="tel"]:focus,
-.ui.form input[type="time"]:focus,
-.ui.form input[type="text"]:focus,
-.ui.form input[type="url"]:focus {
-  color: rgba(0, 0, 0, 0.95);
+.ui.form input[type='date']:focus,
+.ui.form input[type='datetime-local']:focus,
+.ui.form input[type='email']:focus,
+.ui.form input[type='number']:focus,
+.ui.form input[type='password']:focus,
+.ui.form input[type='search']:focus,
+.ui.form input[type='tel']:focus,
+.ui.form input[type='time']:focus,
+.ui.form input[type='text']:focus,
+.ui.form input[type='url']:focus {
+  color: #767676;
   border-color: rgba(34, 36, 38, 0.35);
   border-radius: 0.25rem;
   background: #FFFFFF;
@@ -15987,7 +16056,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.form textarea:focus {
-  color: rgba(0, 0, 0, 0.95);
+  color: #767676;
   border-color: rgba(34, 36, 38, 0.35);
   border-radius: 0.25rem;
   background: #FFFFFF;
@@ -16061,29 +16130,29 @@ ol.ui.horizontal.list li:before,
 .ui.form .fields.error .field textarea,
 .ui.form .fields.error .field select,
 .ui.form .fields.error .field input:not([type]),
-.ui.form .fields.error .field input[type="date"],
-.ui.form .fields.error .field input[type="datetime-local"],
-.ui.form .fields.error .field input[type="email"],
-.ui.form .fields.error .field input[type="number"],
-.ui.form .fields.error .field input[type="password"],
-.ui.form .fields.error .field input[type="search"],
-.ui.form .fields.error .field input[type="tel"],
-.ui.form .fields.error .field input[type="time"],
-.ui.form .fields.error .field input[type="text"],
-.ui.form .fields.error .field input[type="url"],
+.ui.form .fields.error .field input[type='date'],
+.ui.form .fields.error .field input[type='datetime-local'],
+.ui.form .fields.error .field input[type='email'],
+.ui.form .fields.error .field input[type='number'],
+.ui.form .fields.error .field input[type='password'],
+.ui.form .fields.error .field input[type='search'],
+.ui.form .fields.error .field input[type='tel'],
+.ui.form .fields.error .field input[type='time'],
+.ui.form .fields.error .field input[type='text'],
+.ui.form .fields.error .field input[type='url'],
 .ui.form .field.error textarea,
 .ui.form .field.error select,
 .ui.form .field.error input:not([type]),
-.ui.form .field.error input[type="date"],
-.ui.form .field.error input[type="datetime-local"],
-.ui.form .field.error input[type="email"],
-.ui.form .field.error input[type="number"],
-.ui.form .field.error input[type="password"],
-.ui.form .field.error input[type="search"],
-.ui.form .field.error input[type="tel"],
-.ui.form .field.error input[type="time"],
-.ui.form .field.error input[type="text"],
-.ui.form .field.error input[type="url"] {
+.ui.form .field.error input[type='date'],
+.ui.form .field.error input[type='datetime-local'],
+.ui.form .field.error input[type='email'],
+.ui.form .field.error input[type='number'],
+.ui.form .field.error input[type='password'],
+.ui.form .field.error input[type='search'],
+.ui.form .field.error input[type='tel'],
+.ui.form .field.error input[type='time'],
+.ui.form .field.error input[type='text'],
+.ui.form .field.error input[type='url'] {
   background: #FFF6F6;
   border-color: #E0B4B4;
   color: #9F3A38;
@@ -16094,16 +16163,16 @@ ol.ui.horizontal.list li:before,
 .ui.form .field.error textarea:focus,
 .ui.form .field.error select:focus,
 .ui.form .field.error input:not([type]):focus,
-.ui.form .field.error input[type="date"]:focus,
-.ui.form .field.error input[type="datetime-local"]:focus,
-.ui.form .field.error input[type="email"]:focus,
-.ui.form .field.error input[type="number"]:focus,
-.ui.form .field.error input[type="password"]:focus,
-.ui.form .field.error input[type="search"]:focus,
-.ui.form .field.error input[type="tel"]:focus,
-.ui.form .field.error input[type="time"]:focus,
-.ui.form .field.error input[type="text"]:focus,
-.ui.form .field.error input[type="url"]:focus {
+.ui.form .field.error input[type='date']:focus,
+.ui.form .field.error input[type='datetime-local']:focus,
+.ui.form .field.error input[type='email']:focus,
+.ui.form .field.error input[type='number']:focus,
+.ui.form .field.error input[type='password']:focus,
+.ui.form .field.error input[type='search']:focus,
+.ui.form .field.error input[type='tel']:focus,
+.ui.form .field.error input[type='time']:focus,
+.ui.form .field.error input[type='text']:focus,
+.ui.form .field.error input[type='url']:focus {
   background: #FFF6F6;
   border-color: #E0B4B4;
   color: #9F3A38;
@@ -18281,7 +18350,7 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .blue.row,
 .ui.grid > .blue.column,
 .ui.grid > .row > .blue.column {
-  background-color: #2185D0 !important;
+  background-color: #43bae4 !important;
   color: #FFFFFF;
 }
 
@@ -20161,8 +20230,8 @@ Floated Menu / Item
 
 .ui.menu .blue.active.item,
 .ui.blue.menu .active.item {
-  border-color: #2185D0 !important;
-  color: #2185D0 !important;
+  border-color: #43bae4 !important;
+  color: #43bae4 !important;
 }
 
 .ui.menu .violet.active.item,
@@ -20413,7 +20482,7 @@ Floated Menu / Item
 /* Blue */
 
 .ui.inverted.blue.menu {
-  background-color: #2185D0;
+  background-color: #43bae4;
 }
 
 .ui.inverted.blue.menu .item:before {
@@ -21355,11 +21424,11 @@ Floated Menu / Item
 
 .ui.blue.message {
   background-color: #DFF0FF;
-  color: #2185D0;
+  color: #43bae4;
 }
 
 .ui.blue.message .header {
-  color: #1e77ba;
+  color: #2db2e1;
 }
 
 .ui.violet.message {
@@ -22128,11 +22197,11 @@ Floated Menu / Item
 /* Blue */
 
 .ui.blue.table {
-  border-top: 0.2em solid #2185D0;
+  border-top: 0.2em solid #43bae4;
 }
 
 .ui.inverted.blue.table {
-  background-color: #2185D0 !important;
+  background-color: #43bae4 !important;
   color: #FFFFFF !important;
 }
 
@@ -22899,7 +22968,7 @@ Floated Menu / Item
 
 .ui.test.ad {
   position: relative;
-  background: #545454;
+  background: #767676;
 }
 
 .ui.test.ad:after {
@@ -23261,7 +23330,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .content > a.header:hover,
 .ui.card > .content > a.header:hover {
-  color: #1e70bf;
+  color: #00a4dd;
 }
 
 /* Meta */
@@ -23380,7 +23449,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .extra a:not(.ui):hover,
 .ui.card > .extra a:not(.ui):hover {
-  color: #1e70bf;
+  color: #00a4dd;
 }
 
 /*******************************
@@ -23529,13 +23598,13 @@ a.ui.card:hover,
 .ui.blue.cards > .card,
 .ui.cards > .blue.card,
 .ui.blue.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #2185D0, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #43bae4, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.blue.cards > .card:hover,
 .ui.cards > .blue.card:hover,
 .ui.blue.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #1678c2, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #24b6ea, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Violet */
@@ -24105,7 +24174,7 @@ a.ui.card:hover,
 }
 
 .ui.comments .comment a.author:hover {
-  color: #1e70bf;
+  color: #00a4dd;
 }
 
 /*--------------
@@ -24824,7 +24893,7 @@ a.ui.card:hover,
 }
 
 .ui.items > .item > .content > a.header:hover {
-  color: #1e70bf;
+  color: #00a4dd;
 }
 
 /* Meta */
@@ -25054,7 +25123,7 @@ a.ui.card:hover,
 
 .ui.items a.item:hover .content .header,
 .ui.link.items > .item:hover .content .header {
-  color: #1e70bf;
+  color: #00a4dd;
 }
 
 /*--------------
@@ -25459,7 +25528,7 @@ a.ui.card:hover,
 .ui.blue.statistics .statistic > .value,
 .ui.statistics .blue.statistic > .value,
 .ui.blue.statistic > .value {
-  color: #2185D0;
+  color: #43bae4;
 }
 
 .ui.violet.statistics .statistic > .value,
@@ -26432,7 +26501,7 @@ a.ui.card:hover,
 
 .ui.slider.checkbox input:checked ~ .box:before,
 .ui.slider.checkbox input:checked ~ label:before {
-  background-color: #545454 !important;
+  background-color: #767676 !important;
 }
 
 .ui.slider.checkbox input:checked ~ .box:after,
@@ -26549,7 +26618,7 @@ a.ui.card:hover,
 
 .ui.toggle.checkbox input:checked ~ .box:before,
 .ui.toggle.checkbox input:checked ~ label:before {
-  background-color: #2185D0 !important;
+  background-color: #43bae4 !important;
 }
 
 .ui.toggle.checkbox input:checked ~ .box:after,
@@ -26566,7 +26635,7 @@ a.ui.card:hover,
 
 .ui.toggle.checkbox input:focus:checked ~ .box:before,
 .ui.toggle.checkbox input:focus:checked ~ label:before {
-  background-color: #0d71bb !important;
+  background-color: #0db6f1 !important;
 }
 
 /*******************************
@@ -30034,7 +30103,7 @@ a.ui.nag {
 /* Blue */
 
 .ui.blue.progress .bar {
-  background-color: #2185D0;
+  background-color: #43bae4;
 }
 
 .ui.blue.inverted.progress .bar {
@@ -30098,7 +30167,7 @@ a.ui.nag {
 }
 
 .ui.black.inverted.progress .bar {
-  background-color: #545454;
+  background-color: #767676;
 }
 
 /*--------------
@@ -31081,7 +31150,7 @@ a.ui.nag {
 /* Whole Page */
 
 body.pushable {
-  background: #545454 !important;
+  background: #767676 !important;
 }
 
 /* Page Context */
@@ -32528,11 +32597,11 @@ html.ios body {
 /* Blue */
 
 .ui.blue.table {
-  border-top: 0.2em solid #2185D0;
+  border-top: 0.2em solid #43bae4;
 }
 
 .ui.inverted.blue.table {
-  background-color: #2185D0 !important;
+  background-color: #43bae4 !important;
   color: #FFFFFF !important;
 }
 
