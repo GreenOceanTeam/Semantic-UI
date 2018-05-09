@@ -103,7 +103,7 @@
   font-size: 1em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  color: #767676;
+  color: #4D4D4D;
   border-radius: 0.25rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
@@ -124,7 +124,7 @@
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
   outline: none;
-  color: #767676;
+  color: #4D4D4D;
   border-radius: 0.25rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
@@ -164,7 +164,7 @@
   border-radius: 0.25rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   padding: 0.62em 0.875em;
-  color: #767676;
+  color: #4D4D4D;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
           transition: color 0.1s ease, border-color 0.1s ease;
 }
@@ -339,14 +339,14 @@
 .ui.form input[type='time']:focus,
 .ui.form input[type='text']:focus,
 .ui.form input[type='url']:focus {
-  color: #767676;
+  color: #4D4D4D;
   border-color: rgba(34, 36, 38, 0.35);
   border-radius: 0.25rem;
   background: #FFFFFF;
   box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.35) inset;
 }
 .ui.form textarea:focus {
-  color: #767676;
+  color: #4D4D4D;
   border-color: rgba(34, 36, 38, 0.35);
   border-radius: 0.25rem;
   background: #FFFFFF;

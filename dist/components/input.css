@@ -24,7 +24,7 @@
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  color: #767676;
+  color: #4D4D4D;
 }
 .ui.input input {
   margin: 0em;
@@ -40,7 +40,7 @@
   padding: 0.5804em 0.875em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  color: #767676;
+  color: #4D4D4D;
   border-radius: 0.25rem;
   -webkit-transition: background-color 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
           transition: background-color 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;

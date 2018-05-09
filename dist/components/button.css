@@ -1272,7 +1272,7 @@
 .ui.inverted.black.basic.buttons .button:focus,
 .ui.inverted.black.basic.button:focus {
   box-shadow: 0px 0px 0px 2px #000000 inset !important;
-  color: #767676 !important;
+  color: #4D4D4D !important;
 }
 .ui.inverted.black.basic.buttons .active.button,
 .ui.inverted.black.buttons .basic.active.button,

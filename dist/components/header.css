@@ -300,14 +300,14 @@ h5.ui.header .sub.header {
   color: rgba(255, 255, 255, 0.8);
 }
 .ui.inverted.attached.header {
-  background: #767676 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #767676 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #4D4D4D -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #4D4D4D linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   box-shadow: none;
   border-color: transparent;
 }
 .ui.inverted.block.header {
-  background: #767676 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #767676 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #4D4D4D -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #4D4D4D linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   box-shadow: none;
 }
 .ui.inverted.block.header {
@@ -724,8 +724,8 @@ a.ui.inverted.grey.header:hover {
   color: #4D4D4D;
 }
 h1.ui.header {
-  font-weight: 600;
-  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 7vmin;
 }
 h2.ui.header {
   color: #6fbe44;

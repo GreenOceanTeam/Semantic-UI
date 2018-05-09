@@ -82,7 +82,7 @@ Garret's
 /*---  Light Colors  ---*/
 @lightGreen       : #2ECC40;
 @lightBlue        : #54C8FF;
-@lightBlack       : #767676;
+@lightBlack       : #4D4D4D;
 
 /*-------------------
        Links

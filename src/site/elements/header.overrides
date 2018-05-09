@@ -6,8 +6,8 @@
 }
 
 h1.ui.header {
-  font-weight: 600;
-  text-transform: uppercase;
+  font-weight: 400; 
+  font-size: 7vmin; 
 }
 
 h2.ui.header {

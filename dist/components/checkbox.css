@@ -434,7 +434,7 @@
 }
 .ui.slider.checkbox input:checked ~ .box:before,
 .ui.slider.checkbox input:checked ~ label:before {
-  background-color: #767676 !important;
+  background-color: #4D4D4D !important;
 }
 .ui.slider.checkbox input:checked ~ .box:after,
 .ui.slider.checkbox input:checked ~ label:after {
