@@ -1,0 +1,10 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .ui.checkbox label {
+    line-height: 1.5rem;
+  }
+}

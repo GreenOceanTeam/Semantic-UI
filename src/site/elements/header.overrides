@@ -1,0 +1,52 @@
+/*******************************
+         Site Overrides
+*******************************/
+.ui.header {
+  color: @black;
+}
+
+h1.ui.header {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h2.ui.header {
+  color: @green;
+  font-weight: normal;
+}
+
+h3.ui.header {  
+  font-weight: normal;
+}
+
+h4.ui.header {  
+  font-weight: normal;
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  h1.ui.header {
+    font-size: 2.25rem;
+  }
+
+  h2.ui.header {
+    font-size: 2.0rem;
+  }
+
+  h3.ui.header {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  h4.ui.header {
+    font-size: 1.4rem;
+  }
+
+  h5.ui.header {
+    font-size: 1.25rem;
+  }
+
+  h6.ui.header {
+    font-size: 1.1rem;
+  }
+}

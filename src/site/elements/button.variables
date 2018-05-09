@@ -1,5 +1,6 @@
 /*******************************
-         Theme Overrides
+    User Variable Overrides
 *******************************/
 
-
+/* Text */
+@fontWeight: normal;
