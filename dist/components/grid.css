@@ -1849,3 +1849,8 @@
          Site Overrides
 *******************************/
 
+@media only screen and (max-width: 767px) {
+  .ui.stackable.grid {
+    margin: 0;
+  }
+}

@@ -1,3 +1,10 @@
 /*******************************
     User Variable Overrides
 *******************************/
+/* List Item */
+ul.ui.list li,
+ol.ui.list li,
+.ui.list > .item,
+.ui.list .list > .item {
+  line-height: @lineHeight;
+}

@@ -922,3 +922,11 @@ ol.ui.horizontal.list li:before,
     User Variable Overrides
 *******************************/
 
+
+/* List Item */
+ul.ui.list li,
+ol.ui.list li,
+.ui.list > .item,
+.ui.list .list > .item {
+  line-height: 1.4285em;
+}

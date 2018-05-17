@@ -4782,7 +4782,7 @@ i.flag:not(.icon) {
 i.flag:not(.icon):before {
   display: inline-block;
   content: '';
-  background: url("../themes/default/assets/images/flags.png") no-repeat 0px 0px;
+  background: url("themes/default/assets/images/flags.png") no-repeat 0px 0px;
   width: 16px;
   height: 11px;
 }
@@ -6900,8 +6900,8 @@ h4.ui.header {
 
 @font-face {
   font-family: 'Icons';
-  src: url("../themes/default/assets/fonts/icons.eot");
-  src: url("../themes/default/assets/fonts/icons.eot?#iefix") format('embedded-opentype'), url("../themes/default/assets/fonts/icons.woff2") format('woff2'), url("../themes/default/assets/fonts/icons.woff") format('woff'), url("../themes/default/assets/fonts/icons.ttf") format('truetype'), url("../themes/default/assets/fonts/icons.svg#icons") format('svg');
+  src: url("themes/default/assets/fonts/icons.eot");
+  src: url("themes/default/assets/fonts/icons.eot?#iefix") format('embedded-opentype'), url("themes/default/assets/fonts/icons.woff2") format('woff2'), url("themes/default/assets/fonts/icons.woff") format('woff'), url("themes/default/assets/fonts/icons.ttf") format('truetype'), url("themes/default/assets/fonts/icons.svg#icons") format('svg');
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -13322,6 +13322,15 @@ ol.ui.horizontal.list li:before,
 /*******************************
     User Variable Overrides
 *******************************/
+
+/* List Item */
+
+ul.ui.list li,
+ol.ui.list li,
+.ui.list > .item,
+.ui.list .list > .item {
+  line-height: 1.4285em;
+}
 /*!
  * # Semantic UI 2.0.7 - Loader
  * http://github.com/semantic-org/semantic-ui/
@@ -18882,6 +18891,12 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Site Overrides
 *******************************/
+
+@media only screen and (max-width: 767px) {
+  .ui.stackable.grid {
+    margin: 0;
+  }
+}
 /*
  * # Semantic - Menu
  * http://github.com/semantic-org/semantic-ui/
